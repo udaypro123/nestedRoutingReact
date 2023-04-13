@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nestedRoutingReact/static/css/main.93534e56.css",
+    "main.js": "/nestedRoutingReact/static/js/main.fb61efb3.js",
+    "index.html": "/nestedRoutingReact/index.html",
+    "main.93534e56.css.map": "/nestedRoutingReact/static/css/main.93534e56.css.map",
+    "main.fb61efb3.js.map": "/nestedRoutingReact/static/js/main.fb61efb3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93534e56.css",
+    "static/js/main.fb61efb3.js"
+  ]
+}
