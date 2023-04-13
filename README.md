@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+## About Project
+```
+in this project we done nested routing and protect routes with the help of context api, react Router Dom ,
+```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### project details
 
-## Available Scripts
+```
+1. first of all i create some componets like, Home, Contact, Product componets , Login components and Navbar components
 
-In the project directory, you can run:
+2. inside Home componets basic item hvae like some heading and paragraph
 
-### `npm start`
+3. in contact page have nothing 
+4.  in product componets i have done all the     thing whatever i want to implement 
+```
+product component have to section 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* left pannel
+* Right pannel
+```
+### left pannel
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+in this pannel i implement all links of categorywise
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Right pannel
+in this pannel i implement product details in respect to link
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## context api 
+```
+in this js file i store All data and manage the states
+```
+### Log in componenets
+```
+in log in componets i handle the login page using state [islogin,setislogin].
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+login credentials is 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+username: uday
+password : uday@123
+```
 
-### `npm run eject`
+### Protect Routes 
+```
+protect route is nothing but it is JS file and inplment the concept to secure our data.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+in this js file components wrap that component which is you want to keep safe
+```

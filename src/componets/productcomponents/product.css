@@ -1,0 +1,39 @@
+.electronicContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftdiv {
+    height: 90%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftdiv img {
+    height: 40%;
+    width: 80%;
+    border-radius: 1rem;
+}
+.leftdiv h2 {
+   font-size: 1.5rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: black;
+}
+
+.rightdiv {
+    height: 90%;
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rightdiv p{
+    padding: 1rem; 
+}
